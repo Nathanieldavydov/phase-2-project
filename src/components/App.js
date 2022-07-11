@@ -1,16 +1,15 @@
 import { Routes, Route } from 'react-router';
-import './App.css';
-import Home from './Home'
-import About from './About'
+import Search from './Search'
+import Nearby from './Nearby'
 
 
 function App() {
   return (
     <div className="App">
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/search' element={<Search />} />
 
-          <Route path='/About' element={<About />} />
+          <Route path='/Nearby' element={<Nearby />} />
         </Routes>
     </div>
   );
